@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>AI that explains ecological change — text</title><style>body{margin:0;background:#0a0c10;color:#e9ebef;font:15px/1.7 ui-monospace,Menlo,Consolas,monospace}pre{white-space:pre-wrap;max-width:76ch;margin:48px auto;padding:0 20px}</style></head><body><pre># AI that explains ecological change
+
+AI that explains why a reef is changing.
+
+My M.Sc. thesis builds an AI system that goes past labeling underwater images. It measures each coral, follows it over time, and when it finds damage, proposes likely causes based on 845 scientific papers. Most existing tools stop at the labeling step.
+
+Context: M.Sc. Biotechnology · Marine Ecosystem Dynamics Lab (Dr. Gal Eyal) · Bar-Ilan University
+
+Status: WORKING PROTOTYPE · EVALUATION UNDER WAY
+
+## The problem
+
+Coral reefs are monitored mostly by photographing them and labeling what is in the photos by hand. That is slow, and it only answers what is there. The people responsible for a reef also need to know why it is degrading, and they need to know early.
+
+## What I built
+
+A system in three layers. Perception: measure every organism in an image, calibrated to real surface area. Demography: identify each colony and follow it from one survey to the next. Etiology: an AI agent that proposes likely causes for the damage it sees, citing the literature it relies on, a corpus of 845 papers and 8,359 indexed passages.
+
+## What is not proven yet
+
+The first two layers work as a proof of concept. The third shows that the architecture is feasible, but its accuracy has not been measured yet; that evaluation is the next year of the thesis. A plausible explanation is not necessarily a correct one, so the rate at which the agent invents causes will be reported as a primary metric.
+
+## The Convergence grant
+
+I am the AI research lead on a BIU AI Convergence seed grant (2026–27) with Prof. Carmit Altman, who studies language development in children, and Dr. Gal Eyal. Both labs face the same problem from opposite ends: people describe what they see in imprecise words, and the scientific value lies in recovering the structure behind them. We train a model on children’s narratives and transfer it to divers’ descriptions of reef damage, so that a free-text report can feed the diagnosis system.
+
+## Related work
+
+A systematic review (PRISMA 2020) of AI for marine ecological monitoring, now in screening. A collaboration with the Technion on image analysis of reef settlement plates.
+
+## Connected work
+
+- [Teaching agentic AI](https://yuvalkarako.github.io/v2-copy/work/teaching)
+- [Digital transformation in the IDF](https://yuvalkarako.github.io/v2-copy/work/public-service)</pre></body></html>
