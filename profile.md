@@ -10,9 +10,9 @@ Earlier, he was a product manager in the IDF (2020–22), a member of the third 
 
 ## Work
 
-### AI that explains ecological change
+### Research
 
-My M.Sc. thesis builds an AI system that goes past labeling underwater images. It measures each coral, follows it over time, and when it finds damage, proposes likely causes based on 845 scientific papers. Most existing tools stop at the labeling step.
+My M.Sc. thesis builds an AI system that goes past labeling underwater images. It measures each coral, follows it over time, and when it finds damage, proposes likely causes based on 845 scientific papers. Most existing tools stop at the labeling step. Around it: a BIU AI Convergence grant with Prof. Carmit Altman, a systematic review, and a collaboration with the Technion.
 
 M.Sc. Biotechnology · Marine Ecosystem Dynamics Lab (Dr. Gal Eyal) · Bar-Ilan University
 
